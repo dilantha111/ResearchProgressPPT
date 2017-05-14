@@ -3,6 +3,36 @@
     font-size: 46px;
 }
 
+.past,.future{
+    opacity: 0.5;
+    transition-duration: 1s;
+}
+
+.row{
+
+}
+
+.btn{
+    text-decoration: none;
+    color: bisque;
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 12px;
+    border: 2px solid pink;
+    box-shadow: 0px 2px 13px black;
+    transition-duration:1s;
+}
+
+.btn:hover{
+    box-shadow: 0px 5px 13px 1px black, inset -1px -1px 13px black;
+    transition-duration:1s;
+}
+
+.half{
+    width: 50%;
+    float: left;
+}
+
 #first{
     /*background-color: rgba(158, 158, 158, 0.27);*/
     color: #c03434;
@@ -14,8 +44,62 @@
     color: blueviolet;
 }
 
+#methodology img{
+    max-height: 600px;
+}
+
+#methodology h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#progress ul{
+    font-size: 33px;
+}
+
+#progress ul li{
+    text-align: left;
+}
+
+#team h1,#team p{
+    text-align: left;
+}
+
+#team h1{
+    font-size: 46px;
+}
+
+#team p{
+    font-size: 34px;
+    margin-left: 20px;
+}
+
+#team img{
+    position: absolute;
+    left: 63%;
+    bottom: 0;
+}
+
 .slide{    
     width:900px;
     height:700px;
     border-radius: 10px;
+}
+
+table{
+    font-size: 30px;
+}
+
+tr{
+
+}
+
+th{
+    border: 2px solid pink;
+    background-color: aqua; 
+}
+
+td{
+    border: 2px solid pink;
+    background-color: darkturquoise;
 }
