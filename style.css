@@ -1,6 +1,7 @@
 .panel{        
     text-align: center;
     font-size: 46px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .past,.future{
@@ -36,12 +37,12 @@
 #first{
     /*background-color: rgba(158, 158, 158, 0.27);*/
     color: #c03434;
-    text-shadow: 2px 2px 19px #9E9E9E;
+    text-shadow: 2px 2px 19px #9E9E9E;    
 }
 
 #introduction span{
     font-weight: 600;
-    color: blueviolet;
+    color: #9a89aa;
 }
 
 #methodology img{
